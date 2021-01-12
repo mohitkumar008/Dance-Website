@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        div.logo
+          img(src="/static/img/logo.png")
+          h3 MDA
+        ul
+          li #[a(href="#") Home]
+          li #[a(href="#") About]
+          li #[a(href="#") Services]
+          li #[a(href="#") Class-info]
+          li #[a(href="#") Contact]
+
+    section#introSection
+        div.welcome Welcome to Mohit's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.container
+          div.card
+            h2 Dance Perfection
+            div.card-box
+              div.card-img
+                img(src="/static/img/Dancer-2.png")
+              div.card-content
+                h3 Hip Hop
+                p Hip-hop dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture.
+          div.card
+            h2 Dance the way as you like
+            div.card-box
+              div.card-img
+                img(src="/static/img/Dancer-3.png")
+              div.card-content
+                h3 Classical
+                p The number of recognised classical dances range from eight to more, depending on the source and scholar depending on the source.
+          div.card
+            h2 Expert Teaching
+            div.card-box
+              div.card-img
+                img(src="/static/img/Dancer-4.png")
+              div.card-content
+                h3 Bharatnatyam
+                p Bharatnatyam Dance is considered to be over 2000 years old. Several texts beginning with Bharata Muni's Natya Shastra.
+    
+    section#sponserSection
+        h2 Our Sponsers
+        div.sponsers
+          img(src="/static/img/ferrari-car-logo.png", alt="Frrari Sponser", class="sponsers-img")
+          img(src="/static/img/honda-car-logo.png", alt="Honda Sponser", class="sponsers-img")
+          img(src="/static/img/jaguar-car-logo.png", alt="Jaguar Sponser", class="sponsers-img")
+          img(src="/static/img/honda-car-logo.png", alt="Honda Sponser", class="sponsers-img")
+          img(src="/static/img/ferrari-car-logo.png", alt="Frrari Sponser", class="sponsers-img")
+
+    footer#footer
+        | copyright © 2021 | created by MohitDanceAcademy.com | All Right Reserved.     
+    script
+      include ../static/index.js

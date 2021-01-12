@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cambay', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.logo img {
+    height: 50px;
+    filter: invert(1);
+    padding-bottom: 1px;
+    margin-bottom: -6px;
+}
+
+.logo h3 {
+    color: #e73827;
+    letter-spacing: 6px;
+    margin-left: 6px;
+    font-weight: bolder;
+    margin-bottom: -3px;
+}
+
+#navbar {
+    display: flex;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    padding: 0 40px;
+    padding-top: 5px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 3px 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    color: white;
+    transition: all .4s ease;
+}
+
+#navbar li a:hover {
+    font-weight: bolder;
+    color: #f5af19;
+}
+
+#introSection {
+    background: center / cover no-repeat url("/static/ballet-359982_1920.jpg");
+    height: 35rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+#introSection .welcome {
+    font-size: 3rem;
+    font-family: 'Yeon Sung', cursive;
+
+}
+
+#introSection .small {
+    font-size: 1.8rem;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#missionSection {
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+}
+
+#missionSection .container {
+    width: 76%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#missionSection h2 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(39, 35, 35);
+    padding-top: 15px;
+}
+
+#missionSection .card {
+    background: #f85032;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e73827, #f85032);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 326px;
+    height: 250px;
+    margin: 39px 6px;
+    text-align: center;
+}
+
+#missionSection .card h2 {
+    font-family: 'Cambay', sans-serif;
+    color: rgb(207 216 28 / 73%);
+    margin-top: 10px;
+    text-decoration: overline;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0 5px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+#missionSection .card .card-content h3{
+    color: aqua!important;
+    font-size: 12px;
+}
+
+.card-content p{
+    font-family: 'Cambay', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#sponserSection {
+    background: #DAD299;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 350px;
+}
+
+#sponserSection h2 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(39, 35, 35);
+    padding-top: 15px;
+}
+
+#sponserSection .sponsers{
+    height: 200px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+
+.sponsers-img{
+    height: 80%;
+    margin: 26px;
+}
+
+#footer {
+    background: black;
+    height: 65px;
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeon Sung', cursive;
+}

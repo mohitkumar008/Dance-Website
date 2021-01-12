@@ -1,0 +1,33 @@
+h2{
+    text-align: center;
+    margin-top:5px
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px auto;
+}
+
+#contact input, #contact textarea{
+    margin: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+
+}
+
+.btn{
+    padding: 8px 15px;
+    background-color:green;
+    font-weight: bold;
+    width:20%;
+    cursor: pointer;
+    margin: 7px auto;
+    border-radius:5px;
+    font-size:18px;
+    color: antiquewhite;
+}
